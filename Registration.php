@@ -45,14 +45,9 @@
 
 		$filePath = "a.txt";
 
-		echo readfile($filePath);
+		$f1 = fopen($filePath, "w");
 
-		echo "<br>";
-
-
-		$f1 = fopen($filePath, "a");
-
-		fwrite($f1,  $firstName , $lastName );
+		fwrite($f1,  $firstName. ""  $lastName . "" $username . "" $Email . "");
 
 		fclose($f1);
 
