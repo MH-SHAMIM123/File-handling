@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <title>REGISTRATION</title>
+</head>
+<body>
+
+
+
+        <table border ="1" width=70% align="center">
+
+<tr height="250px">
+    <td width="100">
+
+
+    <fieldset>
+        <legend><b>Registration Form</b></legend>
+        <form action="registration.php" method="POST">
+            <br/>
+            <table width="100%"  >
+                
+
+
+
+           <b>First Name</b><br>
+            <input type="text" name="Fname" value=""><br>
+
+            <b>Last Name</b><br>
+            <input type="text" name="Lname" value=""><br>
+
+            <b>Dob</b><br>
+            <input type="date" name="dob"  > <br>
+            
+            <b>Gender</b><br>
+            <input type="radio" name="gender" value="Male" > Male 
+            <input type="radio" name="gender" value="Female" > Female
+            <input type="radio" name="gender" value="Other" > Other <br>
+
+            <b>Adress</b><br>
+            <input type="text" name="adress" value=""><br>
+           
+            <b>Phone Number</b><br>
+            <input type="Number" name="phoneNumber" value=""><br>
+
+            <b>Email Adress</b><br>
+            <input type="email" name="email"  > 
+            <button title="hint:sample@example.com" style= "color:blue;"> <b>i</b></button> <br>
+
+            <b>User Name</b><br>
+                
+            <input name="userName" type="text"><br>
+ 
+            <b>Password</b><br>
+            <input type="password" name=" password" value="" ><br>
+             
+            <b>Confirm Password</b><br>
+            <input type="password" name=" conPassword" value=""><br>
+             
+          
+           
+            <legend> <b>User Type </b> </legend>
+            
+
+
+             <input type="radio" name="UserType" value="User" > <b>User </b>
+             <input type="radio" name="UserType" value="Customer" > <b>Customer </b>
+
+             <input type="radio" name="UserType" value="Admin" > <b>Admin </b>
+            <input type="radio" name="UserType" value="Management" > <b>Management </b>
+                <br> <br>
+            <hr>
+            
+        
+            </table>
+            
+            <input type="submit" name= "submit" value="Submit" style="color: green;">
+            <input type="reset">
+        </form>
+    </fieldset>
+    </table>
+</body>
+</html>

@@ -43,14 +43,6 @@
 			}
 		}
 
-		$filePath = "a.txt";
-
-		$f1 = fopen($filePath, "w");
-
-		fwrite($f1,  $firstName. ""  $lastName . "" $username . "" $Email . "");
-
-		fclose($f1);
-
 
 
 
